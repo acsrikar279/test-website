@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 {% load staticfiles %}
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="{% static "js/jquery.js" %}"></script>
-<script src="{% static "js/rango-ajax.js" %}"></script>
+<script src="{% static "js/jquery-3.3.1.min.js" %}"></script>
+<script src="{% static "js/bootstrap.min.js" %}"></script>
+<!-- <script src="{% static "js/jquery.js" %}"></script>
+<script src="{% static "js/rango-ajax.js" %}"></script> -->
 {% load rango_template_tags %}
   <head>
     <meta charset="utf-8">
@@ -94,7 +95,5 @@
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="http://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
-    <script src="{% static "js/rango-ajax.js" %}"></script>
-    <script src="{% static "js/rango-jquery.js" %}"></script>
   </body>
 </html>
